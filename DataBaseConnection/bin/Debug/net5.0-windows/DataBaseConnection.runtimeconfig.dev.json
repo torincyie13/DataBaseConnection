@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\sogli\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sogli\\.nuget\\packages"
+    ]
+  }
+}

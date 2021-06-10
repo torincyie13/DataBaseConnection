@@ -26,7 +26,7 @@ namespace DataBaseConnection
         {
             // connect to books database
             booksConnection = new SqlConnection("Data Source=.\\SQLEXPRESS;" +
-                @"AttachDbFilename=C:\Users\thawkins022713\source\repos\DataBaseConnection;" +
+                @"AttachDbFilename=C:\Users\sogli\Downloads\DataBaseConnection-master\DataBaseConnection-master\SQLBooksDB.mdf;" +
                 "Integrated Security=True; Connect Timeout=30;" +
                 "User Instance=True");
             // open the connection
@@ -41,7 +41,8 @@ namespace DataBaseConnection
             titlesTable = new DataTable();
             titlesAdapter.Fill(titlesTable);
             // bind controls to data table
-            txtTitle.DataBindings.Add("Text", titlesTable, "Year_Published");
+            txtTitle.DataBindings.Add("Text", titlesTable, "Title");
+            txtYearPublished.DataBindings.Add("Text", titlesTable, "Year_Published");
             txtISBN.DataBindings.Add("Text", titlesTable, "ISBN");
             txtPubID.DataBindings.Add("Text", titlesTable, "PubID");
             // establish currency manager

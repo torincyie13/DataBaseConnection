@@ -46,73 +46,77 @@ namespace DataBaseConnection
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(103, 61);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(61, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 15);
+            this.label1.Size = new System.Drawing.Size(50, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Title";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(103, 143);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(57, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 15);
+            this.label2.Size = new System.Drawing.Size(142, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Year Published";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(103, 217);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(57, 207);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 15);
+            this.label3.Size = new System.Drawing.Size(56, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "ISBN";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(103, 300);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(57, 290);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 15);
+            this.label4.Size = new System.Drawing.Size(120, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Publisher ID";
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(214, 48);
+            this.txtTitle.Location = new System.Drawing.Point(214, 29);
             this.txtTitle.Multiline = true;
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.ReadOnly = true;
-            this.txtTitle.Size = new System.Drawing.Size(227, 47);
+            this.txtTitle.Size = new System.Drawing.Size(312, 69);
             this.txtTitle.TabIndex = 4;
             // 
             // txtYearPublished
             // 
-            this.txtYearPublished.Location = new System.Drawing.Point(214, 129);
+            this.txtYearPublished.Location = new System.Drawing.Point(214, 110);
             this.txtYearPublished.Multiline = true;
             this.txtYearPublished.Name = "txtYearPublished";
             this.txtYearPublished.ReadOnly = true;
-            this.txtYearPublished.Size = new System.Drawing.Size(227, 47);
+            this.txtYearPublished.Size = new System.Drawing.Size(312, 69);
             this.txtYearPublished.TabIndex = 5;
             // 
             // txtISBN
             // 
-            this.txtISBN.Location = new System.Drawing.Point(214, 214);
+            this.txtISBN.Location = new System.Drawing.Point(214, 195);
             this.txtISBN.Multiline = true;
             this.txtISBN.Name = "txtISBN";
             this.txtISBN.ReadOnly = true;
-            this.txtISBN.Size = new System.Drawing.Size(227, 47);
+            this.txtISBN.Size = new System.Drawing.Size(312, 69);
             this.txtISBN.TabIndex = 6;
             // 
             // txtPubID
             // 
-            this.txtPubID.Location = new System.Drawing.Point(214, 288);
+            this.txtPubID.Location = new System.Drawing.Point(214, 269);
             this.txtPubID.Multiline = true;
             this.txtPubID.Name = "txtPubID";
             this.txtPubID.ReadOnly = true;
-            this.txtPubID.Size = new System.Drawing.Size(227, 47);
+            this.txtPubID.Size = new System.Drawing.Size(312, 69);
             this.txtPubID.TabIndex = 7;
             // 
             // btnFirst
