@@ -26,7 +26,7 @@ namespace DataBaseConnection
         {
             // connect to books database
             booksConnection = new SqlConnection("Data Source=.\\SQLEXPRESS;" +
-                @"AttachDbFilename=C:\Users\sogli\Downloads\DataBaseConnection-master\DataBaseConnection-master\SQLBooksDB.mdf;" +
+                @"AttachDbFilename=C:\Users\sogli\Downloads\DataBaseConnection-master\DataBaseConnection-master\DataBaseConnection\bin\Debug\net5.0-windows\SQLBooksDB.mdf;" +
                 "Integrated Security=True; Connect Timeout=30;" +
                 "User Instance=True");
             // open the connection

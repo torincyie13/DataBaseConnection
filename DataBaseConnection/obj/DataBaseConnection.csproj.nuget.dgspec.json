@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sogli\\Downloads\\DataBaseConnection-master\\DataBaseConnection-master\\DataBaseConnection\\DataBaseConnection.csproj": {}
+    "C:\\Users\\sogli\\Source\\Repos\\DataBaseConnection\\DataBaseConnection\\DataBaseConnection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sogli\\Downloads\\DataBaseConnection-master\\DataBaseConnection-master\\DataBaseConnection\\DataBaseConnection.csproj": {
+    "C:\\Users\\sogli\\Source\\Repos\\DataBaseConnection\\DataBaseConnection\\DataBaseConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sogli\\Downloads\\DataBaseConnection-master\\DataBaseConnection-master\\DataBaseConnection\\DataBaseConnection.csproj",
+        "projectUniqueName": "C:\\Users\\sogli\\Source\\Repos\\DataBaseConnection\\DataBaseConnection\\DataBaseConnection.csproj",
         "projectName": "DataBaseConnection",
-        "projectPath": "C:\\Users\\sogli\\Downloads\\DataBaseConnection-master\\DataBaseConnection-master\\DataBaseConnection\\DataBaseConnection.csproj",
+        "projectPath": "C:\\Users\\sogli\\Source\\Repos\\DataBaseConnection\\DataBaseConnection\\DataBaseConnection.csproj",
         "packagesPath": "C:\\Users\\sogli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sogli\\Downloads\\DataBaseConnection-master\\DataBaseConnection-master\\DataBaseConnection\\obj\\",
+        "outputPath": "C:\\Users\\sogli\\Source\\Repos\\DataBaseConnection\\DataBaseConnection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sogli\\AppData\\Roaming\\NuGet\\NuGet.Config",
